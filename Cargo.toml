@@ -5,3 +5,6 @@ authors = ["SOFe <sofe2038@gmail.com>"]
 edition = "2018"
 license = "Apache-2.0"
 description = "Manage bidirectional mpsc channels more conveniently"
+categories = ["concurrency"]
+repository = "https://github.com/SOF3/bi_channel.rs"
+
