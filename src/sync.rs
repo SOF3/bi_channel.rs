@@ -22,8 +22,8 @@ use std::time::Duration;
 use crate::BiMessage;
 
 pub struct SyncBiChannel<Sent, Received> {
-    sender: SyncSender<Sent>,
-    receiver: Receiver<Received>,
+    pub sender: SyncSender<Sent>,
+    pub receiver: Receiver<Received>,
 }
 
 impl<Sent, Received> SyncBiChannel<Sent, Received> {

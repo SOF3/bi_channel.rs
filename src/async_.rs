@@ -23,8 +23,8 @@ use crate::BiMessage;
 
 /// Opposite endpoints of two pairs of channels to send and receive.
 pub struct BiChannel<Sent, Received> {
-    sender: Sender<Sent>,
-    receiver: Receiver<Received>,
+    pub sender: Sender<Sent>,
+    pub receiver: Receiver<Received>,
 }
 
 impl<Sent, Received> BiChannel<Sent, Received> {
