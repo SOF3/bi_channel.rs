@@ -35,8 +35,8 @@ impl<Sent, Received> BiChannel<Sent, Received> {
     pub fn try_recv(&self) -> Result<Received, TryRecvError> { self.receiver.try_recv() }
 }
 
-pub type InternalBiChannel<M> = BiChannel<<M as BiMessage>::In, <M as BiMessage>::Out>;
-pub type ExternalBiChannel<M> = BiChannel<<M as BiMessage>::Out, <M as BiMessage>::In>;
+pub type InternalBiChannel<M> = BiChannel<<M as BiMessage>::Out, <M as BiMessage>::In>;
+pub type ExternalBiChannel<M> = BiChannel<<M as BiMessage>::In, <M as BiMessage>::Out>;
 
 pub struct BiChannelPair<M: BiMessage> {
     pub internal: BiChannel<M::Out, M::In>,

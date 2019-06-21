@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../bi_channel\examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../bi_channel\tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../bi_channel\benches" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../bi_channel\target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
