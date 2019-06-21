@@ -1,0 +1,7 @@
+[package]
+name = "bi_channel"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "Manage bidirectional mpsc channels more conveniently"
